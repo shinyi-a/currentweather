@@ -9,6 +9,7 @@ const ResultContainer = ({
   humidity,
   text,
   icon,
+  wind,
 }) => {
   return (
     <div className="container">
@@ -21,6 +22,7 @@ const ResultContainer = ({
         <h2 className="nobold">cloud: {cloud}%</h2>
         <h2 className="nobold">uv index: {uv}</h2>
         <h2 className="nobold">humidity: {humidity}%</h2>
+        <h2 className="nobold">wind speed: {wind}kph</h2>
         <br />
       </div>
       <Link to="/currentweather">

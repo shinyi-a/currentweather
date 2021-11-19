@@ -41,6 +41,7 @@ const Result = () => {
             humidity={result.current.humidity}
             text={result.current.condition.text}
             icon={result.current.condition.icon}
+            wind={result.current.condition.wind_kph}
           />
         </>
       )}
