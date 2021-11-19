@@ -48,7 +48,7 @@ const Home = () => {
           </select>
         )}
         <br />
-        <Link to={`/${inputText}`}>
+        <Link to={`/currentweather/${inputText}`}>
           <button className="search">search</button>
         </Link>
       </div>

@@ -23,7 +23,7 @@ const ResultContainer = ({
         <h2 className="nobold">humidity: {humidity}%</h2>
         <br />
       </div>
-      <Link to="/">
+      <Link to="/currentweather">
         <button className="gohome">go home</button>
       </Link>
     </div>

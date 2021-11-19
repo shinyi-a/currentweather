@@ -10,8 +10,8 @@ function App() {
     <>
       <Nav />
       <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path=":city" element={<Result />} />
+        <Route path="/currentweather" element={<Home />} />
+        <Route path="/currentweather/:city" element={<Result />} />
       </Routes>
       <Footer />
     </>
