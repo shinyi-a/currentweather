@@ -1,4 +1,4 @@
-# Simple current weather React app ☀️🌩️🌧️⛅🌨️🌤️
+# Simple current weather React app ☀️🌩️🌧️
 Simple React web page that tells current weather conditions of user selected country.
 
 ## Features
