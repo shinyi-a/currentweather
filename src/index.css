@@ -1,0 +1,115 @@
+/* body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #EEEEEE;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+} */
+
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  --palegrey: #eeeeee;
+  --darknavy: #0b0433;
+  --darkgrey: #414141;
+}
+
+a {
+  color: var(--palegrey);
+  text-decoration: none;
+  font-family: "Comfortaa", cursive;
+}
+
+body {
+  background-color: var(--palegrey);
+}
+
+.container {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  height: 90vh;
+  font-family: "Krub", sans-serif;
+}
+
+.cursornone {
+  cursor: context-menu;
+}
+
+.dropdown,
+option {
+  font-family: "Krub", sans-serif;
+  font-weight: bold;
+  font-size: large;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+footer {
+  text-align: center;
+  height: 50px;
+  background-color: var(--darknavy);
+  color: var(--palegrey);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  font-family: "Krub", sans-serif;
+}
+
+img {
+  width: 200px;
+  height: 200px;
+}
+
+.loading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+  font-family: "Krub", sans-serif;
+}
+
+.nav {
+  width: 100%;
+  background-color: var(--darknavy);
+  height: 50px;
+  color: var(--palegrey);
+  text-align: center;
+}
+
+.nobold {
+  font-weight: normal;
+}
+
+.search,
+.gohome {
+  background-color: var(--darkgrey);
+  color: var(--palegrey);
+  width: 100px;
+  padding: 10px;
+  margin: 10px;
+  font-family: "Krub", sans-serif;
+  border-radius: 30px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+}
+
+.search:hover,
+.gohome:hover {
+  background-color: grey;
+  cursor: pointer;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.7), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+}
