@@ -2,7 +2,7 @@
 Simple React web page that tells current weather conditions of user selected country.
 
 ## Features
-- 2 pages - homepage and result page
+__2 pages - homepage and result page__
   ### Homepage
   - Dropdown list of countries
   - Search button
