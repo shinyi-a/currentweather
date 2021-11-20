@@ -9,3 +9,10 @@ Simple React web page that tells current weather conditions of user selected cou
   ### Result page
   - Shows the current weather of the user's country of choice
   - Return to homepage button
+
+## Mockup
+![Alt Text](https://github.com/shinyi-a/currentweather/blob/main/mockup.jpg)
+
+## React App
+![Alt Text](https://github.com/shinyi-a/currentweather/blob/main/homepage.JPG)
+![Alt Text](https://github.com/shinyi-a/currentweather/blob/main/result.jpg)
